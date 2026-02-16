@@ -43,6 +43,10 @@ The filesystem provides storage plus a communication layer: small programs write
 
 File systems manage how applications share storage, whether on disks, SSDs, tapes, optical media, or RAM disks such as `tmpfs`. Distributed file systems extend the model across networked machines. Virtual file systems expose computed data, like `procfs` and `sysfs`, through the same path-based interface.
 
+## Showcase
+
+- Filesystem-oriented agent projects: [OpenViking, AGFS, FUSE patterns](/showcase.md)
+
 ## See also
 
 - Filesystem Hierarchy Standard (FHS)
