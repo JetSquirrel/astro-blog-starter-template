@@ -4,4 +4,4 @@
 export const SITE_TITLE = "FILESYSTEM.md";
 export const SITE_DESCRIPTION = "A concise, agent-friendly guide to the Unix file system.";
 export const DOC_SOURCE_URL =
-	"https://raw.githubusercontent.com/JetSquirrel/FILESYSTEM.md/main/src/content/docs/filesystem.md";
+	"/filesystem.md";

@@ -6,7 +6,7 @@ const docs = defineCollection({
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
-		source: z.string().url(),
+		source: z.string().url().or(z.string().startsWith("/")),
 	}),
 });
 

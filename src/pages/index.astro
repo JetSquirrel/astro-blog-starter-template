@@ -21,65 +21,6 @@ const { Content } = await render(doc);
 			title={doc.data.title ?? SITE_TITLE}
 			description={doc.data.description ?? SITE_DESCRIPTION}
 		/>
-		<style>
-			.page-hero {
-				margin-bottom: 2rem;
-			}
-			.eyebrow {
-				text-transform: uppercase;
-				letter-spacing: 0.08em;
-				font-size: 0.8em;
-				color: rgb(var(--gray));
-				margin: 0 0 0.4rem 0;
-			}
-			.lede {
-				max-width: 52ch;
-			}
-			.cta {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 0.75rem;
-				margin-top: 1rem;
-			}
-			.button,
-			.ghost {
-				display: inline-block;
-				padding: 0.65rem 1.1rem;
-				border-radius: 999px;
-				text-decoration: none;
-				font-weight: 700;
-				border: 2px solid transparent;
-			}
-			.button {
-				background: rgb(var(--black));
-				color: white;
-			}
-			.ghost {
-				border-color: rgb(var(--black));
-				color: rgb(var(--black));
-			}
-			.doc {
-				background: white;
-				border-radius: 16px;
-				box-shadow: var(--box-shadow);
-				padding: 1.5rem;
-			}
-			.doc :is(h2, h3) {
-				margin-top: 1.5rem;
-			}
-			.source-note {
-				margin-top: 2rem;
-				font-size: 0.95rem;
-				color: rgb(var(--gray));
-			}
-			@media (max-width: 720px) {
-				.button,
-				.ghost {
-					width: 100%;
-					text-align: center;
-				}
-			}
-		</style>
 	</head>
 	<body>
 		<Header />

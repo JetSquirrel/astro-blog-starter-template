@@ -1,7 +1,7 @@
 ---
 title: "Unix file system, simplified"
 description: "A concise, agent-friendly walkthrough of how Unix-like operating systems store, name, and share data."
-source: "https://raw.githubusercontent.com/JetSquirrel/FILESYSTEM.md/main/src/content/docs/filesystem.md"
+source: "/filesystem.md"
 ---
 
 ## Quick facts
